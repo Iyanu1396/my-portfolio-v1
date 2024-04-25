@@ -1,0 +1,224 @@
+.about,
+.projects {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(62, 141, 198);
+}
+
+i {
+  color: rgb(26, 32, 44);
+}
+
+h1 {
+  margin: 0;
+}
+
+.me {
+  color: rgb(62, 141, 198);
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 1.2em 24px;
+  border-bottom: 2px solid rgb(226, 232, 240);
+  position: sticky;
+}
+
+ul a {
+  color: rgb(26, 32, 44);
+}
+
+ul a:hover {
+  color: rgb(62, 141, 198);
+}
+
+ul,
+i :hover {
+  cursor: pointer;
+}
+
+.name-nav {
+  font-size: 1.375rem;
+}
+.resume-btn {
+  background-color: rgb(226, 232, 240);
+  padding: 10px 1rem;
+  font-weight: 600;
+  border-radius: 3px;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.intro {
+  margin-top: 11em;
+  margin-bottom: 2em;
+}
+
+h5,
+.intro h1 {
+  font-size: 2.25rem;
+  line-height: 40px;
+}
+
+h2 {
+  font-size: 1.857rem;
+  margin-bottom: 1em;
+}
+
+h4,
+h5 {
+  margin: 0;
+}
+
+footer {
+  background-color: rgb(245, 247, 250);
+  padding: 2em 0;
+}
+
+.pad-footer {
+  padding: 1em 0;
+}
+
+#featured-projects,
+#about-me {
+  margin: 0;
+  margin-bottom: 10em;
+  padding: 0 1em;
+}
+
+.socials i {
+  padding-top: 2rem;
+  font-size: 2rem;
+  padding-top: 2rem;
+  padding-left: 10px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#navbar {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.project {
+  border: 1px solid rgb(226, 232, 240);
+  border-radius: 5px;
+  padding: 1.5em;
+  margin-bottom: 2em;
+  max-width: 400px;
+}
+
+.tech-used p {
+  color: rgb(113, 128, 150);
+  font-size: 0.87rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  word-spacing: 10px;
+}
+
+#featured-projects {
+  width: 80%;
+  margin: 0 auto;
+  padding: 2em 0;
+}
+
+.project p {
+  margin: 0;
+}
+
+.project-name {
+  font-weight: 600;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.project-description {
+  color: rgb(113, 128, 150);
+  line-height: 1.5;
+}
+
+.project-icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-top: 2em;
+}
+
+.projects--container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+#about-me {
+  width: 92%;
+  margin: 0 auto;
+  padding: 3em 0;
+}
+
+#about-me h2 {
+  padding: 0;
+}
+
+.skills p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.skills p + p {
+  padding-top: 10px;
+}
+
+.avatar {
+  max-width: 100%;
+  width: 180px;
+  height: 180px;
+}
+
+@media (min-width: 700px) {
+  .about,
+  .projects {
+    display: block;
+  }
+  ul {
+    justify-content: flex-end;
+    gap: 1em;
+  }
+  .name-nav {
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .intro h1 {
+    font-size: 3rem;
+  }
+  ul {
+    padding: 1.2em 150px;
+  }
+}
