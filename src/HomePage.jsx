@@ -14,15 +14,17 @@ function HomePage() {
       <main>
         <section className="intro flex">
           <div className="container">
-            <h1>Hey there, I'm IyanuOluwa.</h1>
+            <h1>
+              Hey there, I&apos;m <span className="iyanu">IyanuOluwa</span>.
+            </h1>
             <p className="intro-text">
               I am a passionate, self-taught Frontend Developer with a strong
               enthusiasm for JavaScript.
             </p>
             <p>
-              Learn more about{" "}
+              LEARN MORE ABOUT
               <NavLink to="about">
-                <span className="me">me</span>
+                <span className="me"> ME </span>
               </NavLink>
               !
             </p>

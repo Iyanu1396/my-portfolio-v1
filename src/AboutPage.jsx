@@ -12,7 +12,7 @@ function AboutPage() {
           <div className="container">
             {" "}
             <img src={avatar} alt="memoji avatar" className="avatar"/>
-            <h1>Hey there, I'm IyanuOluwa.</h1>
+            <h1>Hey there, I&apos;m <span className="iyanu">IyanuOluwa</span>.</h1>
             <p className="intro-text">Nice to meet you! 😁</p>
           </div>
         </section>

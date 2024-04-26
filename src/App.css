@@ -3,6 +3,10 @@
   display: none;
 }
 
+.iyanu {
+  color: #2580df;
+}
+
 a {
   text-decoration: none;
   color: rgb(62, 141, 198);
@@ -12,8 +16,10 @@ i {
   color: rgb(26, 32, 44);
 }
 
-h1 {
+h1,
+h2 {
   margin: 0;
+  font-family: "Playfair Display", serif;
 }
 
 .me {
@@ -134,7 +140,7 @@ footer {
 }
 
 .tech-used p {
-  color: rgb(113, 128, 150);
+  color: rgb(62, 141, 198);
   font-size: 0.87rem;
   font-weight: bold;
   text-transform: uppercase;
@@ -198,6 +204,29 @@ footer {
   max-width: 100%;
   width: 180px;
   height: 180px;
+}
+
+.tech-icons {
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+}
+
+.tech-icons i {
+  font-size: 3em;
+  color: rgb(62, 141, 198);
+}
+
+figure {
+  background-color: rgb(245, 247, 250);
+  border: 2px solid rgb(245, 247, 250);
+  text-align: center;
+  margin-left: 0;
+  padding: 1em 0;
+}
+
+figcaption {
+  font-weight: 600;
+  padding-top: 5px;
 }
 
 @media (min-width: 700px) {

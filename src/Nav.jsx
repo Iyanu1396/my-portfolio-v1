@@ -5,7 +5,9 @@ function Nav() {
     <nav id="navbar">
       <ul>
         <li className="name-nav">
-          <NavLink to="/">Atijosan IyanuOluwa</NavLink>
+          <NavLink to="/">
+            Atijosan <span className="iyanu">IyanuOluwa</span>
+          </NavLink>
         </li>
         <li className="about">
           <NavLink to="/about">About</NavLink>
@@ -13,7 +15,11 @@ function Nav() {
         <li className="projects">
           <a href="/#featured-projects">Projects</a>
         </li>
-        <li className="resume-btn">Resume</li>
+        <li className="resume-btn">
+          <a href="" target="_blank">
+            Resume
+          </a>
+        </li>
       </ul>
     </nav>
   );

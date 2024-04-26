@@ -2,7 +2,7 @@ function Footer() {
   return (
     <footer className="flex">
       <div className="container">
-        <h5>Let's Connect 🤝</h5>
+        <h5>Let&apos;s Connect 🤝</h5>
         <p className="pad-footer">
           I'm interested in contributing to interesting projects and ideas.
         </p>
