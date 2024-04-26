@@ -2,6 +2,7 @@ import Nav from "./Nav";
 import About from "./About";
 import Footer from "./Footer";
 import avatar from "./assets/avatar.png";
+import Typewriter from "typewriter-effect";
 
 function AboutPage() {
   return (
@@ -12,7 +13,17 @@ function AboutPage() {
           <div className="container">
             {" "}
             <img src={avatar} alt="memoji avatar" className="avatar"/>
-            <h1>Hey there, I&apos;m <span className="iyanu">IyanuOluwa</span>.</h1>
+            <h1>
+              <Typewriter
+                options={{
+                  strings: [
+                    '  Hey there, I&apos;m <span class="iyanu">IyanuOluwa</span>.',
+                  ],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
+            </h1>
             <p className="intro-text">Nice to meet you! 😁</p>
           </div>
         </section>

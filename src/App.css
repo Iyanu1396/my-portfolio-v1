@@ -83,11 +83,12 @@ h5,
 .intro h1 {
   font-size: 2.25rem;
   line-height: 40px;
+  
 }
 
 h2 {
   font-size: 1.857rem;
-  margin-bottom: 1em;
+  margin: 1em 0;
 }
 
 h4,
@@ -122,6 +123,7 @@ footer {
   position: fixed;
   top: 0;
   width: 100%;
+
 }
 
 #navbar {
@@ -129,6 +131,8 @@ footer {
   position: fixed;
   top: 0;
   width: 100%;
+  opacity: 1;
+  z-index: 1000;
 }
 
 .project {
@@ -137,6 +141,7 @@ footer {
   padding: 1.5em;
   margin-bottom: 2em;
   max-width: 400px;
+  cursor: pointer;
 }
 
 .tech-used p {
@@ -208,7 +213,8 @@ footer {
 
 .tech-icons {
   display: grid;
-  grid-template-columns: repeat(2, 200px);
+  grid-template-columns: repeat(2, 150px);
+  gap: 1.5em;
 }
 
 .tech-icons i {
@@ -220,7 +226,7 @@ figure {
   background-color: rgb(245, 247, 250);
   border: 2px solid rgb(245, 247, 250);
   text-align: center;
-  margin-left: 0;
+  margin: 0;
   padding: 1em 0;
 }
 
@@ -229,7 +235,7 @@ figcaption {
   padding-top: 5px;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 600px) {
   .about,
   .projects {
     display: block;
@@ -241,9 +247,12 @@ figcaption {
   .name-nav {
     margin-right: auto;
   }
+  .tech-icons {
+    grid-template-columns: repeat(3, 150px);
+  }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
   .intro h1 {
     font-size: 3rem;
   }

@@ -17,7 +17,7 @@ function About() {
         What sets me apart is my commitment to continuous growth. Whether
         it&apos;s through devouring online courses, seeking guidance from
         mentors, or staying at the forefront of emerging tools and trends,
-        I&apos;m always hungry for knowledge.zz
+        I&apos;m always hungry for knowledge.
       </p>
 
       <p>
