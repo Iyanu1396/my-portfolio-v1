@@ -22,6 +22,11 @@ function Tech() {
         </figure>
 
         <figure>
+        <i className="fa-brands fa-wordpress"></i>
+          <figcaption>React js</figcaption>
+        </figure>
+
+        <figure>
           <i className="fa-brands fa-figma"></i>
           <figcaption>Figma</figcaption>
         </figure>

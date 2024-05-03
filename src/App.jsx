@@ -9,7 +9,6 @@ function App() {
       <Routes>
         <Route index element={<HomePage />} />
         <Route path="about" element={<AboutPage />} />
-        <Route path="projects" element={<FeaturedProjects/>} />
       </Routes>
     </BrowserRouter>
   );

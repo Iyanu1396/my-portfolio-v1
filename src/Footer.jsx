@@ -1,12 +1,21 @@
+import { NavLink } from "react-router-dom";
+
 function Footer() {
   return (
     <footer className="flex">
       <div className="container">
         <h5>Let&apos;s Connect 🤝</h5>
         <p className="pad-footer">
-          I'm interested in contributing to interesting projects and ideas.
+          I&apos;m interested in contributing to interesting projects and ideas.
         </p>
-        <a href="mailto:iyanu1396@gmail.com"><strong>Say hello to me</strong></a>
+        <a href="mailto:iyanu1396@gmail.com">
+          <strong> Let&apos;s make magic with code 👋</strong>
+        </a>
+        <div className="footer-links">
+          <NavLink to="/">Home</NavLink>
+          <NavLink to="/about">About</NavLink>
+          <NavLink to="/#featured-projects">Projects</NavLink>
+        </div>
         <div className="socials">
           <a href="https://iyanucodes.hashnode.dev/" target="_blank">
             <i className="fa-brands fa-hashnode" />

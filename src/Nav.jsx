@@ -13,7 +13,7 @@ function Nav() {
           <NavLink to="/about">About</NavLink>
         </li>
         <li className="projects">
-          <a href="/#featured-projects">Projects</a>
+        <NavLink to="/#featured-projects">Projects</NavLink>
         </li>
         <li className="resume-btn">
           <a href="" target="_blank">
