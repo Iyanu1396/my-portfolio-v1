@@ -233,6 +233,12 @@ footer {
   color: rgb(62, 141, 198);
 }
 
+svg{
+
+  width: 2em;
+  height: 2em;
+}
+
 figure {
   background-color: rgb(245, 247, 250);
   border: 2px solid rgb(245, 247, 250);
