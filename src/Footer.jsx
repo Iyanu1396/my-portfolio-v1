@@ -24,7 +24,7 @@ function Footer() {
             <i className="fa-brands fa-github" />
           </a>
           <a
-            href="https://www.linkedin.com/in/atijosan-iyanuoluwatw"
+            href="https://www.linkedin.com/in/atijosan-iyanuoluwa-827049246/"
             target="_blank"
           >
             <i className="fa-brands fa-linkedin" />
