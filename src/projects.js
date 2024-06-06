@@ -9,7 +9,7 @@ export default [
   },
   {
     technologies: ["React", "Redux", "Tailwind CSS", "Spotify Web API"],
-    title: "Stats Lists",
+    title: "STATS LISTS",
     description:
       "Stats Lists is a web application that provides detailed insights into your Spotify listening habits. With Stats Lists, you can view statistics for your most streamed tracks, artists, and albums, and generate personalized playlists based on your listening history.",
     github: "https://github.com/Iyanu1396/StatsLists",
