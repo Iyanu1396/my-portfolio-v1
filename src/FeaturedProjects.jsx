@@ -1,9 +1,9 @@
 function FeaturedProjects(props) {
-  console.log(props);
+
   return (
     <div className="project">
       <div className="tech-used">
-        <p>{props.technologies.join(" ")}</p>
+        <p>{props.technologies.join(" , ")}</p>
       </div>
 
       <h4 className="project-name">{props.title}</h4>
